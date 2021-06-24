@@ -11,7 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a10eb8a-f57a-471a-b869-157ea3a3627d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/deviceAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/userApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/48d40b7e-608b-4a66-ad49-82aa1752fd04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/DeviceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateBrand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateBrand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DevicePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/DeviceStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/DeviceStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tyfwLOblUJ6spRSIJAzW0UnwPe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,7 +60,8 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +77,14 @@
       <workItem from="1623838770800" duration="9317000" />
       <workItem from="1623935186742" duration="2077000" />
       <workItem from="1624013226348" duration="13906000" />
-      <workItem from="1624094998058" duration="878000" />
+      <workItem from="1624094998058" duration="10980000" />
+      <workItem from="1624267098062" duration="952000" />
+      <workItem from="1624321712112" duration="9991000" />
+      <workItem from="1624426985542" duration="3278000" />
+      <workItem from="1624452721200" duration="5303000" />
+      <workItem from="1624461339422" duration="211000" />
+      <workItem from="1624461565225" duration="1224000" />
+      <workItem from="1624520563975" duration="6117000" />
     </task>
     <servers />
   </component>
@@ -74,11 +104,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624461458618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1624461458618" />
     <state x="-1773" y="85" key="MergeDialog" timestamp="1624030790644">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
@@ -87,14 +122,22 @@
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="-1271" y="298" key="MultipleFileMergeDialog/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1624030790664" />
-    <state x="277" y="77" key="SettingsEditor" timestamp="1624095882034">
+    <state x="-1643" y="77" key="SettingsEditor" timestamp="1624462242371">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1643" y="77" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1624462242371" />
+    <state x="277" y="77" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1624461553329" />
+    <state x="490" y="154" width="549" height="540" key="StructurePopup" timestamp="1624453955385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1643" y="77" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1624030618258" />
-    <state x="277" y="77" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1624095882034" />
+    <state x="490" y="154" width="549" height="540" key="StructurePopup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1624453955385" />
     <state x="-1448" y="205" key="git4idea.merge.GitPullDialog" timestamp="1624030765612">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
     <state x="-1448" y="205" key="git4idea.merge.GitPullDialog/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1624030765612" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1624461394085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1624461394085" />
   </component>
 </project>
